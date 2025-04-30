@@ -1,0 +1,12 @@
+CREATE DATABASE DS;
+USE DS;
+CREATE TABLE IF NOT EXISTS UTILISATEUR (
+    nom VARCHAR(50) NOT NULL,
+    prenom VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    age int not null,
+    montant1 DECIMAL(10, 2) NOT NULL,
+    montant2 DECIMAL(10, 2) NOT NULL,
+    resultat DECIMAL(10, 2) NOT NULL,
+    operation VARCHAR(50) NOT NULL
+);
